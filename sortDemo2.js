@@ -1,4 +1,9 @@
 // 插入排序：工作原理是构建有序序列，对于未排序数据，在已排序序列中从后往前扫描，找到相应位置并插入。
+// 时间平均复杂度：O(n^2)
+// 时间复杂度最差：O(n^2)
+// 时间复杂度最好：O(n)
+// 空间复杂度：O(1)
+// 稳定性：稳定
 function insertSort(arr){
     let len = arr.length;
     let preIndex,current;
